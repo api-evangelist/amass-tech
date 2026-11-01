@@ -1,4 +1,4 @@
-# amass-tech
+# Amass
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-amass-tech is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://amass.tech/
+Amass provides scientific intelligence for life sciences, aggregating papers, trials, drugs, genes, patents, regulatory records and live web data. Their platform offers an API and MCP, delivering cited answers to support research and development in biotech and healthcare.
+
+**Areas:** Company · Life Sciences · Data Intelligence · API · MCP
+
+## Amass on APIs.io
+
+Everything profiled for Amass is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amass-tech/](https://apis.io/providers/amass-tech/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Amass Cores/biomedcore API](https://apis.io/apis/amass-tech/amass-tech-cores-biomedcore-api/) — The cores/biomedcore API from Amass — 4 operation(s) for cores/biomedcore.
+- [Amass Cores/drugcore API](https://apis.io/apis/amass-tech/amass-tech-cores-drugcore-api/) — The cores/drugcore API from Amass — 4 operation(s) for cores/drugcore.
+- [Amass Cores/genecore API](https://apis.io/apis/amass-tech/amass-tech-cores-genecore-api/) — The cores/genecore API from Amass — 4 operation(s) for cores/genecore.
+- [Amass Cores/patentcore API](https://apis.io/apis/amass-tech/amass-tech-cores-patentcore-api/) — The cores/patentcore API from Amass — 3 operation(s) for cores/patentcore.
+- [Amass Cores/regulatorycore API](https://apis.io/apis/amass-tech/amass-tech-cores-regulatorycore-api/) — The cores/regulatorycore API from Amass — 5 operation(s) for cores/regulatorycore.
+- [Amass Cores/trialcore API](https://apis.io/apis/amass-tech/amass-tech-cores-trialcore-api/) — The cores/trialcore API from Amass — 4 operation(s) for cores/trialcore.
+- [Amass Credits API](https://apis.io/apis/amass-tech/amass-tech-credits-api/) — The credits API from Amass — 1 operation(s) for credits.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Amass Tech Agentic Access](https://apis.io/agentic-access/amass-tech/amass-tech-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BiomedCoreRecord](https://apis.io/schemas/amass-tech/amass-tech-biomed-core-record/)
+- [GeneCoreLookupItem](https://apis.io/schemas/amass-tech/amass-tech-gene-core-lookup-item/)
+- [PatentCoreRecord](https://apis.io/schemas/amass-tech/amass-tech-patent-core-record/)
+- [RegulatoryCoreChangedRecord](https://apis.io/schemas/amass-tech/amass-tech-regulatory-core-changed-record/)
+- [TrialCoreChangedRecord](https://apis.io/schemas/amass-tech/amass-tech-trial-core-changed-record/)
+- [TrialCoreRecord](https://apis.io/schemas/amass-tech/amass-tech-trial-core-record/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Amass Tech Context](https://apis.io/jsonld/amass-tech/amass-tech-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Amass API Rules](https://apis.io/rules/amass-tech/amass-tech-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amass Tech Domain Security](https://apis.io/security/amass-tech/amass-tech-domain-security/)
+- [Amass Tech Trust Center](https://apis.io/security/amass-tech/amass-tech-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Amass Tech Plans Pricing](https://apis.io/plans/amass-tech/amass-tech-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://amass.tech/)
+- [Documentation](https://platform.amass.tech/documentation)
+- [Getting started](https://platform.amass.tech/documentation/getting-started/quickstart)
+- [API reference](https://platform.amass.tech/llms.txt)
+- [Pricing](https://amass.tech/pricing)
+- [Security](https://amass.tech/security)
+- [Compliance](https://amass.tech/security)
+- [Terms of service](https://amass.tech/legal/terms-of-service)
+- [Privacy policy](https://amass.tech/legal/privacy-policy)
+- [GitHub](https://github.com/JungeAlexander)
+
+## API Evangelist rating
+
+**Kin Score 56.6** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 75.8 |
+
+**Agent readiness 55.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 23.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amass-tech/](https://apis.io/providers/amass-tech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amass: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amass-tech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
